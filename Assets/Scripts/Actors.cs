@@ -2,12 +2,12 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class Entities
+public class Actors
 {
 
 }
 
-public class Android : Entities
+public class Android : Actors
 {
     public string androidID;
     public string androidName;
@@ -24,7 +24,7 @@ public class Player : Android
     public string playerName;
 }
 
-public class Part : Entities
+public class Part : Actors
 {
     public enum enumPartSlot { Weapon, Structural }
 
